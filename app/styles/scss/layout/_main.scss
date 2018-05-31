@@ -1,0 +1,62 @@
+
+  body {
+  background: #D74254;
+  background-image: linear-gradient(-180deg, #EA3E3E 0%, #4F0606 97%);
+  height: 1400px;
+  display:grid;
+
+.container {
+    display: grid;
+
+
+.cont-child5{
+    @font-face { font-family: Buffalo Nickel; src: url('Buffalo_Nickel.ttf'); }
+    h1 {
+      font-family: Buffalo Nickel
+    }
+    text-align: center;
+    font-size: 144px;
+    transform: rotate(-16deg);
+    color: white;
+  }
+
+
+.cont-child8{
+    @font-face { font-family: Calibri; src: url('calibri.ttf'); }
+    @font-face { font-family: Buffalo Nickel; src: url('Buffalo_Nickel.ttf'); }
+
+    h5{
+      font-family:Calibri - Regular
+    }
+    h5 {
+    font-family:Buffalo Nickel
+  }
+    text-align: center;
+    color: #F18787;
+}
+
+
+.cont-child10{
+  img {
+  position:absolute;
+  left: 40px;
+  top: 1165px;
+  z-index: -1;
+        }
+      }
+
+
+.cont-child11{
+      @font-face { font-family: Calibri; src: url('calibri.ttf'); }
+      h6{
+        font-family: Calibri-Regular
+      }
+    text-align:center;
+     color: #F18787;
+
+   }
+}
+}
+
+
+/* media queries */
